@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+body{
+    
+    background-color: rgb(203, 250, 250);
+    font-family: 'Kanit', sans-serif;
+}
+.bgImage{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.bgImage  .bgim{   
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.2;
+    border-radius: 0;
+    max-width: 100%;
+    
+ }
+.bgImage img{
+     width: 30%;
+     max-width: 500px;
+     border-radius: 50%;
+     position: absolute;
+     top: 10%;
+
+     border: 2px solid black;
+    
+    
+ }
+
+.bgImage h1{
+
+    position: absolute;
+    top: 63%;
+    
+
+  
+}
+.social-iconss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .social-iconss a {
+    margin: 0 10px; 
+    text-decoration: none;
+  }
+  
+  .social-iconss img {
+    width: 50px; 
+    height: 50px; 
+    transition: transform 0.2s;
+    border: 1px solid rgb(255, 247, 236);
+    border-radius: 50%;
+  }
+  
+  .social-iconss img:hover {
+    transform: scale(1.1); 
+  }
+.order{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.order h1{
+
+    align-self: center;
+    font-size: 50px;
+    color: #2b6e6e;
+    font-weight: 0;
+
+}
+.card-body{
+       display: block;
+       justify-content: center;
+    }
+    button {
+      
+        padding: 4px 10px;
+        background-color:rgb(77, 255, 196);
+       
+        border: 1px solid ;
+        border-radius: 9px;
+        transition: background-color 0.3s;
+
+      }
+      
+    button:hover {
+        
+        background-color: rgb(39, 204, 163);
+      }
+.location{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location iframe{
+
+    width: 100%;
+}
+
+.location h1{
+padding: 10px;
+    align-self: center;
+    font-size: 50px;
+    color: #2b6e6e;
+}
